@@ -1,6 +1,6 @@
 # Registration Interface
 
-![image]()
+![image](https://github.com/YingChenCheng/register/blob/main/doc/registerBanner.png)
 
 This is a registration interface:memo: which is including a personal detail form and an account detail form.
 
@@ -14,11 +14,11 @@ English version: [Create a React application written in TypeScript](https://medi
 
 DEMO here :point_down:
 
-![image]()
+![image](https://github.com/YingChenCheng/register/blob/main/doc/register.gif)
 
 RWD effect :point_down:
 
-![image]()
+![image](https://github.com/YingChenCheng/register/blob/main/doc/registerRWD.gif)
 
 To run this project, you may also need to install the following plugins.:ballot_box_with_check:
 
