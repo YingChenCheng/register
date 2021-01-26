@@ -64,17 +64,17 @@ export const AccountDetailForm: React.FC<Props & InjectedFormProps< {}, Props>> 
                 />
               </Col>
             </FormGroup>
-						<FormGroup row={true}>
-							<Col xs="12" lg="12">
-								<Field
-									name="note"
-									type="textarea"
-									component={ReduxFormInput}
-									label="Note"
-									placeHolder="Enter Note"
-								/>
-							</Col>
-						</FormGroup>
+	    <FormGroup row={true}>
+	      <Col xs="12" lg="12">
+		<Field
+		  name="note"
+		  type="textarea"
+		  component={ReduxFormInput}
+		  label="Note"
+		  placeHolder="Enter Note"
+		/>
+	      </Col>
+	    </FormGroup>
           </CardBody>
           <div style={{paddingBottom:30}}>
             <Button
