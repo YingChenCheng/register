@@ -1,0 +1,60 @@
+@mixin form-style{
+  font: {
+    family: Arial, Helvetica, sans-serif;
+    size: 12px;
+  }
+}
+
+h1 {
+  padding-top: 48px;
+  color: #5e5e5e;
+  text-align: center;
+
+  #register_R1 {  
+    color: #d18d37;
+  }
+
+  #register_E1 {
+    color: #4a86e8;
+  }
+
+  #register_E2 {
+    color: #ffab40;
+  }
+
+  #register_R2 {
+    color: #3767b4;
+  }
+}
+
+.stepper {
+  font: {
+    family: Arial, Helvetica, sans-serif;
+    size: 16px;
+  }
+  text-align: center;
+}
+
+.card-border {
+  font: {
+    family: Arial, Helvetica, sans-serif;
+    size: 14px;
+  }
+  border-color: transparent !important;
+  padding: 0 24px;
+}
+
+input.form-control {
+  @include form-style;
+}
+
+select.form-control{
+  @include form-style;
+  padding: 6px 9px;
+}
+
+textarea.form-control{
+  @include form-style;
+}
+
+/*# sourceMappingURL=reduxform.css.map */
