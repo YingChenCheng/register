@@ -147,10 +147,10 @@ export const PersonalDetailForm: React.FC<Props & InjectedFormProps< {}, Props>>
                   placeHolder="Enter Address"
                 />
               </Col>
-	          </FormGroup>
-	          <FormGroup row={true}>
+	    </FormGroup>
+	    <FormGroup row={true}>
               <Col xs="12" lg="12">
-	              <Field
+	        <Field
                   name="note"
                   type="textarea"
                   component={ReduxFormInput}
